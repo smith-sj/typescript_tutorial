@@ -29,7 +29,7 @@
 
 ### Tuple
 ```ts
-let user: [number, string] = [1, 'Mosh'];
+let user: [number, string] = [1, 'Stephen'];
 ```
 
 ### Enum
@@ -59,7 +59,7 @@ let employee: {
     retire: (date: Date) => void;
 } = { 
     id: 1, 
-    name: "Mosh", 
+    name: "Stephen", 
     retire: (date: Date) => {
         console.log(date);
     } 
